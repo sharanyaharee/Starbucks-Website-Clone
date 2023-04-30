@@ -1,189 +1,226 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Starbucks Coffee Company</title>
-    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-</head>
+    <link rel="shortcut icon" href="images/logo.png" type="image/x-icon" />
+     <!-- <link href="fontawesome/css/fontawesome.css" rel="stylesheet" />
+    <link href="fontawesome/css/brands.css" rel="stylesheet" />
+    <link href="fontawesome/css/solid.css" rel="stylesheet" /> -->
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css"/>
+  </head>
 
-<body>
+  <body>
     <!--Navbar Section begins-->
     <nav class="myNavbar">
-        <div class="navbar-container">
-            <div class="navbar-brand">
-                <a href="index.html">
-                    <img src="images/logoTM.png" alt="starbuckslogo">
-                </a>
-            </div>
-            <div class="ulWrap">
-                <ul class="navbar-nav-left">
-                    <li><a href="#">Menu</a></li>
-                    <li><a href="#">Rewards</a></li>
-                    <li><a href="#">Gift Cards</a></li>
-                </ul>
-                <ul class="navbar-nav-right">
-                    <li><a href=""><img src="images/marker.jpg " alt=""><span>Find a Store</span></a></li>
-                    <li><button class="btn btn-hover">Sign in</button></li>
-                    <li><button class="btn btn-dark">Join now</button></li>
-
-                </ul>
-            </div>
+      <div class="navbar-container">
+        <div class="navbar-brand">
+          <a href="index.html">
+            <img src="images/logoTM.png" alt="starbuckslogo" />
+          </a>
         </div>
-        
+        <div class="ulWrap">
+          <ul class="navbar-nav-left">
+            <li><a href="#">Menu</a></li>
+            <li><a href="#">Rewards</a></li>
+            <li><a href="#">Gift Cards</a></li>
+          </ul>
 
+          <ul class="navbar-nav-right">
+            <li>
+              <i
+                class="bi bi-brightness-high-fill"
+                style="font-size: 1.3rem"
+                id="themeSwitch"
+              ></i>
+            </li>
+            <li>
+              <a href=""
+                ><i class="bi bi-geo-alt-fill"></i><span>Find a Store</span></a
+              >
+            </li>
+            <li><button class="btn btn-hover">Sign in</button></li>
+            <li><button class="btn btn-dark">Join now</button></li>
+          </ul>
+        </div>
+      </div>
     </nav>
     <!--Navbar Section ends-->
     <!--Main Section begins-->
     <section class="mainContainer">
-        <div class=" box box1">
-            <div class="box-size box-text">
-                <h2>More sips, more trips</h2>
-                <p>Join Starbucks® Rewards and link your Delta SkyMiles® account by 3/31 to earn 200
-                    Stars,500 miles—or both!*</p>
+      <div class="box box1">
+        <div class="box-size box-text">
+          <h2>More sips, more trips</h2>
+          <p>
+            Join Starbucks® Rewards and link your Delta SkyMiles® account by
+            3/31 to earn 200 Stars,500 miles—or both!*
+          </p>
 
-                <button class="b1 b">
-                    Join + Link
-                </button>
-            </div>
-            <div class="box-size box-img">
-                <img src="images/img1.jpg" alt="">
-            </div>
-
+          <button class="b1 b">Join + Link</button>
         </div>
-
+        <div class="box-size box-img">
+          <img src="images/img1.jpg" alt="" />
         </div>
-        <div class=" box box2">
-            <div class="box-size box-img">
-                <img src="images/box2img.jpg" alt="">
-            </div>
-            <div class="box-text box-size ">
-                <h1>Brighten your day</h1>
-                <h2>Enjoy a cheery Pink Drink, Paradise Drink or Dragon Drink® Starbucks Refreshers® beverage.</h2>
-                <button class="b2 b"> Order now</button>
-            </div>
-        </div>
+      </div>
 
-
-        <div class=" box box3">
-            <div class="box-text box-size">
-                <h1>Uplifting anytime</h1>
-                <h2>Recharge with a lively Brown Sugar Oatmilk or Toasted Vanilla Oatmilk Shaken Espresso—140 calories
-                    or
-                    less in a grande.</h2>
-                <button class="b3 b"> Order now</button>
-            </div>
-            <div class="box-size box-img">
-                <img src="images/box3img.jpg" alt="">
-            </div>
+      <div class="box box2">
+        <div class="box-size box-img">
+          <img src="images/box2img.jpg" alt="" />
         </div>
-
-        <div class=" box box4">
-            <div class="box-size box-img">
-                <img src="images/box4img.jpg" alt="">
-            </div>
-            <div class="box-text box-size">
-                <h1>Hearty on the go</h1>
-                <h2> Grab a deliciously filling Double-Smoked Bacon, Cheddar & Egg Sandwich or Bacon & Gruyère Egg
-                    Bites.</h2>
-                <button class="b4 b"> Order now</button>
-            </div>
+        <div class="box-text box-size">
+          <h1>Brighten your day</h1>
+          <h2>
+            Enjoy a cheery Pink Drink, Paradise Drink or Dragon Drink® Starbucks
+            Refreshers® beverage.
+          </h2>
+          <button class="b2 b buttonBorder">Order now</button>
         </div>
-        <div class=" box box5">
-            <div class="box-text box-size">
-                <h3>Delivery from our place to yours</h3>
-                <p>Keep doing you, we’re on the way. Place your Starbucks order for delivery—now on DoorDash. See the
-                    DoorDash app for availability and restrictions.
-                </p>
-                <button class="b5 b"> Order now</button>
-            </div>
-            <div class="box-size box-img">
-                <img src="images/img5.jpg" alt="">
-            </div>
+      </div>
 
+      <div class="box box3">
+        <div class="box-text box-size">
+          <h1>Uplifting anytime</h1>
+          <h2>
+            Recharge with a lively Brown Sugar Oatmilk or Toasted Vanilla
+            Oatmilk Shaken Espresso—140 calories or less in a grande.
+          </h2>
+          <button class="b3 b buttonBorder fw">Order now</button>
         </div>
+        <div class="box-size box-img">
+          <img src="images/box3img.jpg" alt="" />
+        </div>
+      </div>
+
+      <div class="box box4">
+        <div class="box-size box-img">
+          <img src="images/box4img.jpg" alt="" />
+        </div>
+        <div class="box-text box-size">
+          <h1>Hearty on the go</h1>
+          <h2>
+            Grab a deliciously filling Double-Smoked Bacon, Cheddar & Egg
+            Sandwich or Bacon & Gruyère Egg Bites.
+          </h2>
+          <button class="b4 b buttonBorder">Order now</button>
+        </div>
+      </div>
+      <div class="box box5">
+        <div class="box-text box-size">
+          <h3>Delivery from our place to yours</h3>
+          <p>
+            Keep doing you, we’re on the way. Place your Starbucks order for
+            delivery—now on DoorDash. See the DoorDash app for availability and
+            restrictions.
+          </p>
+          <button class="b5 b buttonBorder">Order now</button>
+        </div>
+        <div class="box-size box-img">
+          <img src="images/img5.jpg" alt="" />
+        </div>
+      </div>
     </section>
     <!--Main section ends-->
     <!--Footer Section begins-->
     <div class="footer-wraper">
-    <footer>
-        <div class="footer1-heading">About Us
-            <ul>
-                <li>Our Company</li>
-                <li>Our Coffee</li>
-                <li>Stories and News</li>
-                <li>Starbucks Archive</li>
-                <li>Investor Relations</li>
-                <li>Customer Service</li>
-
-            </ul>
+      <footer>
+        <div >
+         
+          <ul> About Us
+            <li>Our Company</li>
+            <li>Our Coffee</li>
+            <li>Stories and News</li>
+            <li>Starbucks Archive</li>
+            <li>Investor Relations</li>
+            <li>Customer Service</li>
+          </ul>
         </div>
-            <div class="footer1-heading">Careers
-                <ul>
-                    <li>Culture and Values</li>
-                    <li> Inclusion, Diversity, and Equity</li>
-                    <li>College Achievement Plan</li>
-                    <li> Alumni Community</li>
-                    <li>U.S. Careers</li>
-                    <li>International Careers</li>
-                </ul>
-            </div>
-            <div class="footer1-heading">Social Impact <ul>
-                    <li> People</li>
-                    <li> Planet</li>
-                    <li>Environmental and Social Impact Reporting</li>
+        <div>
+         
+          <ul> Careers
+            <li>Culture and Values</li>
+            <li>Inclusion, Diversity, and Equity</li>
+            <li>College Achievement Plan</li>
+            <li>Alumni Community</li>
+            <li>U.S. Careers</li>
+            <li>International Careers</li>
+          </ul>
+        </div>
+        <div >
+          
+          <ul>Social Impact
+            <li>People</li>
+            <li>Planet</li>
+            <li>Environmental and Social Impact Reporting</li>
+          </ul>
+        </div>
+        <div>
+         
+          <ul> For Business Partners
+            <li>Landlord Support Center</li>
+            <li>Suppliers</li>
+            <li>Corporate Gift Card Sales</li>
+            <li>Office and Food service Coffee</li>
+          </ul>
+        </div>
+        <div >
+         
+          <ul> Order and Pickup
+            <li>Order on the App</li>
+            <li>Order on the Web</li>
+            <li>Delivery</li>
+            <li>Order and Pickup Options</li>
+            <li>Explore and Find Coffee for Home</li>
+          </ul>
+        </div>
+      </footer>
 
-                </ul>
-            </div>
-            <div class="footer1-heading" >For Business Partners
-                <ul>
-                    <li> Landlord Support Center</li>
-                    <li> Suppliers</li>
-                    <li>Corporate Gift Card Sales</li>
-                    <li> Office and Foodservice Coffee</li>
-                </ul>
-            </div>
-            <div  class="footer1-heading">Order and Pickup
-                <ul>
-                    <li> Order on the App</li>
-                    <li>Order on the Web</li>
-                    <li>Delivery</li>
-                    <li>Order and Pickup Options</li>
-                    <li>Explore and Find Coffee for Home</li>
-                </ul>
-            </div>
-    </footer>
-    <hr>
-
-    <section class="footer2">
-        <img src="images/spotify.png" class="footer-icons" alt="spotify logo">
-        <img src="images/fb.png" class="footer-icons" alt="spotify logo">
-        <img src="images/pinterest.png" class="footer-icons" alt="spotify logo">
-        <img src="images/insta.png" class="footer-icons" alt="spotify logo">
-        <img src="images/youtube.png" class="footer-icons" alt="spotify logo">
-        <img src="images/twitter.png" class="footer-icons" alt="spotify logo">
-       
-       <div class="foot-note"> <span>Privacy Notice </span><span>|</span><span> Terms of Use   </span>
-        <span>|</span> <span> Do Not Share My Personal Information</span> <span> |  </span> <span>CA Supply Chain Act </span>
-        <span>|  </span> <span> Cookie Preferences</span>
+      <section class="footer2">
+        <!-- <i class="bi bi-spotify" style="font-size:2rem;color:black;"></i>
+        <i class="bi bi-facebook" style="font-size:1.8rem; color:black;"></i>
+        <i class="bi bi-pinterest" style="font-size:1.8rem;color:black;"></i>
+        <i class="bi bi-instagram" style="font-size:1.8rem;color:black;"></i>
+        <i class="bi bi-youtube" style="font-size:1.8rem;color:black;"></i>
+        <i class="bi bi-twitter " style="font-size:1.8rem;color:black;"></i>
+         -->
+        <img src="images/spotify.png" class="footer-icons" alt="spotify logo" />
+        <img src="images/fb.png" class="footer-icons" alt="fb logo" />
+        <img src="images/pinterest.png" class="footer-icons" alt="pinterest logo" />
+        <img src="images/insta.png" class="footer-icons" alt="insta logo" />
+        <img src="images/youtube.png" class="footer-icons" alt="youtube logo" />
+        <img src="images/twitter.png" class="footer-icons" alt="twitter logo" />
+        <div class="foot-note">
+          <span>Privacy Notice </span><span>|</span><span> Terms of Use </span>
+          <span>|</span> <span> Do Not Share My Personal Information</span>
+          <span> | </span> <span>CA Supply Chain Act </span> <span>| </span>
+          <span> Cookie Preferences</span>
+        </div>
+        <div class="copy">
+          &copy;2023 Starbucks Coffee Company. All rights reserved.
+        </div>
+      </section>
     </div>
-    <div class="copy">
-        &copy;2023 Starbucks Coffee Company. All rights reserved.
-    </div>
-    </section>
-    </div>
-<!--Footer Section ends-->
-
-<!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js" integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/js/bootstrap.min.js" integrity="sha384-heAjqF+bCxXpCWLa6Zhcp4fu20XoNIA98ecBC1YkdXhszjoejr5y9Q77hIrv8R9i" crossorigin="anonymous"></script> -->
-
-
-
-</body>
-
+    <!--Footer Section ends-->
+    <script src="script.js"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.7/dist/umd/popper.min.js"
+      integrity="sha384-zYPOMqeu1DAVkHiLqWBUTcbYfZ8osu1Nd6Z89ify25QV9guujx43ITvfi12/QExE"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.min.js"
+      integrity="sha384-Y4oOpwW3duJdCWv5ly8SCFYWqFDsfob/3GkgExXKV4idmbt98QcxXYs9UoXAB7BZ"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
