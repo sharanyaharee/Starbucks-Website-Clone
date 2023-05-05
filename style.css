@@ -19,8 +19,32 @@ body {
   font-family: "Open Sans", sans-serif;
   line-height: 1.4;
   color: var(--black);
-}
 
+}
+#coupon{
+width:40%;
+height:50%;
+position: absolute;
+top:30%;
+left:30%;
+visibility:hidden;
+
+}
+#close{
+  width:3em;
+  background-color:rgb(227, 215, 217);
+  color:rgb(200, 15, 15);
+  position:relative;
+  border:none;
+  font-size:1em;
+  top:7%;
+}
+#weather{
+  border:none;
+  font-size: 2rem;
+  background: transparent;
+  color: rgb(214, 77, 39);
+}
 .dark {
   color: var(--black);
   background-color: var(--green);
