@@ -41,9 +41,10 @@ visibility:hidden;
 }
 #weather{
   border:none;
-  font-size: 2rem;
+  font-size: 1rem;
+  font-weight: bold;
   background: transparent;
-  color: rgb(214, 77, 39);
+  color: rgb(52, 95, 68);
 }
 .dark {
   color: var(--black);
